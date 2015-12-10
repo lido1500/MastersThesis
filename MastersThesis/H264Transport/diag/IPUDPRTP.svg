@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="67.687256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="IPUDPRTP.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="143.06646"
+     inkscape:cy="69.89917"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1318"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-2.3621826)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.97104216;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5240"
+       width="597.14288"
+       height="66.837036"
+       x="2.1428571"
+       y="3.2124047" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2816"
+       width="99"
+       height="49"
+       x="0.5"
+       y="2.8621826" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:AlArabiya"
+       x="50.043945"
+       y="22.909647"
+       id="text2818"><tspan
+         sodipodi:role="line"
+         id="tspan2820"
+         x="50.043945"
+         y="22.909647">Entête</tspan><tspan
+         sodipodi:role="line"
+         x="50.043945"
+         y="37.909645"
+         id="tspan2822">IP</tspan></text>
+    <rect
+       y="2.8621826"
+       x="100.5"
+       height="49"
+       width="39"
+       id="rect3648"
+       style="fill:none;stroke:#000000;stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       id="text2852"
+       y="23.82605"
+       x="120.04395"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:AlArabiya"
+       xml:space="preserve"><tspan
+         y="23.82605"
+         x="120.04395"
+         id="tspan2854"
+         sodipodi:role="line">Entête</tspan><tspan
+         id="tspan2856"
+         y="38.82605"
+         x="120.04395"
+         sodipodi:role="line">UDP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:AlArabiya"
+       x="139.40105"
+       y="42.209637"
+       id="text2858"><tspan
+         sodipodi:role="line"
+         id="tspan2860"
+         x="139.40105"
+         y="42.209637" /></text>
+    <g
+       id="g3752">
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:AlArabiya"
+         x="400.09961"
+         y="31.434448"
+         id="text2868"><tspan
+           sodipodi:role="line"
+           x="400.09961"
+           y="31.434448"
+           id="tspan2872">Unité NAL</tspan></text>
+      <rect
+         y="2.8621826"
+         x="200.49998"
+         height="49"
+         width="399"
+         id="rect3652"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <text
+       id="text3660"
+       y="23.899891"
+       x="170.18636"
+       style="font-size:11.99001217px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:AlArabiya"
+       xml:space="preserve"
+       transform="scale(0.99916771,1.000833)"><tspan
+         y="23.899891"
+         x="170.18636"
+         id="tspan3662"
+         sodipodi:role="line">Entête</tspan><tspan
+         id="tspan3664"
+         y="38.887405"
+         x="170.18636"
+         sodipodi:role="line">RTP</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3666"
+       width="59.001663"
+       height="49"
+       x="140.5"
+       y="2.8621826" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="28.598633"
+       y="67.260376"
+       id="text3681"><tspan
+         sodipodi:role="line"
+         id="tspan3683"
+         x="28.598633"
+         y="67.260376">20 octets</tspan></text>
+    <text
+       id="text3685"
+       y="67.260376"
+       x="101.36426"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       xml:space="preserve"><tspan
+         y="67.260376"
+         x="101.36426"
+         id="tspan3687"
+         sodipodi:role="line">8 octets</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="148.02524"
+       y="67.260376"
+       id="text3689"><tspan
+         sodipodi:role="line"
+         id="tspan3691"
+         x="148.02524"
+         y="67.260376">12 octets</tspan></text>
+    <text
+       id="text3743"
+       y="67.483032"
+       x="256.8291"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       xml:space="preserve"><tspan
+         y="67.483032"
+         x="256.8291"
+         id="tspan3745"
+         sodipodi:role="line">1 octet pour l'entête, de 100 octects à 64 kb pour le contenu</tspan></text>
+  </g>
+</svg>

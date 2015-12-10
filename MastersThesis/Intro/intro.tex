@@ -1,0 +1,143 @@
+\section*{Problématique}
+
+Tout comme l'univers, l'Internet est en expansion continue. Selon l'agence
+comScore, plus de 170 millions d'États-Uniens ont visionné de la vidéo par
+l'intermédiaire du réseau Internet durant le mois de février 2011
+\citep{ComScore2011}. De plus, \citet{ComScore2011} ajoute que durant ce mois,
+ce même public a effectué plus de 5 milliards de visionnements de séquences
+vidéos. Pour sa part, l'agence \citet{Juniper2010} affirme que la vidéophonie
+atteindra 29 millions d'utilisateurs d'ici 2015.
+
+Devant ces chiffres, on ne peut que constater la croissance fulgurante de la
+consommation de la vidéo sur des réseaux peu fiables, tels Internet ou, dans des
+conditions \textit{temps réel}, comme c'est le cas avec la vidéophonie. Cette
+tendance de consommation se manifeste aussi dans les réseaux mobiles. Dans son
+rapport, \citet{Nielsen2011} indique qu'en novembre 2010, aux États-Unis, 45\%
+des téléphones achetés dans les six derniers mois étaient des téléphones
+intelligents et que, pour ce même mois, 31\% des téléphones sur le marché
+états-unien étaient des téléphones intelligents, donc capables d'accéder à
+Internet et de consulter des flux vidéos sur des réseaux mobiles. L'augmentation
+du nombre d'utilisateurs et leur soif de contenu de haute qualité accaparent les
+ressources limitées des opérateurs de réseaux mobiles.
+
+Dans ces conditions, il est crucial d'optimiser l'usage du canal de
+transmission. Cette optimisation ne vient pas seulement de l'amélioration des
+taux de compression, quoique la norme H.264 permette d'obtenir des taux de
+compression considérablement supérieurs aux normes antérieures, mais vient aussi
+de l'amélioration des mécanismes de résilience aux erreurs. L'amélioration de la
+résilience aux erreurs diminue la charge sur un réseau en réduisant le nombre de
+retransmissions, lorsque celles-ci sont envisageables. La vidéophonie sur des
+appareils mobiles est une des conditions où la retransmission n'est pas
+envisageable. De plus, la charge accrue sur les réseaux mobiles peut, elle
+aussi, limiter l'efficacité de la retransmission. La retransmission peut aussi
+mener à des délais qui ne sont pas acceptables pour l'application vidéo
+envisagée. La vidéoconférence en est un parfait exemple.
+
+La particularité du réseau mobile est qu'il est particulièrement vulnérable à
+l'erreur. Il est souvent considéré comme le maillon faible dans la chaine de
+transmission de flux vidéos ou de la vidéophonie. Le parcours des données vidéos
+du réseau Internet jusqu'au réseau de l'opérateur est fait, généralement, sur
+des réseaux câblés. En ce qui concerne ces pertes encourues lors de ce
+transport, il n'y a rien à faire, car les données ne se rendent pas à
+destination. Une fois rendues chez l'opérateur, les données se rendent à la
+station de base \ang{base transceiver station} appropriée à la cellule de
+l'utilisateur et sont transmises sur le lien sans fil. Cette transmission est
+très sensible et, comme mentionnée, selon les conditions du réseau mobile, la
+retransmission sur ce lien n'est pas toujours possible ni envisageable.
+Lorsqu'il y a corruption sur le lien sans fil, les données se rendent à
+l'appareil mobile, mais un certain nombre de bits sont altérés par
+l'interférence. Dans ce cas, l'ensemble du paquet est rejeté, ceci représente un
+gaspillage important d'information utile, car les bits non altérés du paquet
+sont eux aussi supprimés. N'ayant pas la possibilité de retransmission, ne
+serait-il pas mieux d'exploiter l'information du paquet, même si une partie de
+celle-ci est corrompue?
+
+Pour résoudre ce problème, il faut changer de paradigme. La puissance de
+traitement n'est plus uniquement disponible dans les serveurs colossaux des
+opérateurs, mais aussi répartie à travers les appareils mobiles sur le réseau.
+Ceux-ci sont de plus en plus puissants, comme en témoignent les spécifications
+techniques du iPhone 4, avec son processeur d'un gigahertz et sa mémoire vive de
+512 mégaoctets.
+
+Il est possible de tirer profit de cette nouvelle puissance computationnelle
+pour reconstruire les données corrompues lors du transport sur un réseau peu
+fiable. Contrairement à l'encodeur qui cherche à extraire la redondance d'une
+séquence, ce nouveau type d'algorithme cherche à utiliser la redondance des
+images ou des portions d'images décodées pour reconstruire ce qui a été
+endommagé, et ce, sans l'ajout, apriori, de données redondantes de la part de
+l'encodeur.
+
+\section*{Motivations}
+Un algorithme capable d'identifier et de dissimuler la détérioration visuelle
+issue des erreurs de transport pourrait transformer l'écosystème mobile. Non
+seulement serait-il capable de réduire la charge sur les réseaux mobiles, mais
+il pourrait aussi augmenter la qualité visuelle perçue par l'utilisateur dans
+des contextes où la retransmission est impraticable, comme c'est le cas en
+vidéophonie.
+
+De plus, cet algorithme pourrait remplacer en partie certains mécanismes de
+résilience à l'erreur qui requièrent une quantité considérable de bande
+passante, tels la retransmission ou l'ajout de trames redondantes. Sans pour
+autant éliminer ces méthodes, les opérateurs, sachant que le décodeur est plus
+résilient à l'erreur, pourraient réduire considérablement la quantité de bits
+alloués à la résilience lors du transport.
+
+Notons aussi qu'une solution qui ne requiert des altérations qu'au
+décodeur fait en sorte qu'elle est compatible avec la quantité incommensurable
+de contenu vidéo déjà encodé, et évite d'avoir à tout réencoder pour
+assurer la compatibilité avec un nouveau mécanisme.
+
+\section*{Objectifs}
+Notre effort de recherche vise à déterminer, tout d'abord, s'il est possible de
+décoder avec succès (sans plantage) une séquence corrompue et, si oui, quelle en
+est la probabilité. Par la suite, lorsque ce genre de décodage est réussi, nous
+cherchons à identifier les caractéristiques de la détérioration visuelle
+engendrée par le train de bits corrompu traité par le décodeur. Puis, nous
+évaluerons les possibilités de dissimuler cette détérioration visuelle.
+
+Notre objectif ultime est de concevoir et de développer un algorithme capable de
+détecter et de dissimuler les dégradations visuelles. Cet algorithme doit
+satisfaire aux exigences logicielles suivantes:
+\begin{itemize}
+\item L'algorithme doit identifier la détérioration visuelle importante
+résultant du décodage d'une trame corrompue.
+\item L'algorithme doit dissimuler la détérioration visuelle importante
+résultant du décodage d'une trame corrompue, dans le but d'améliorer la qualité
+visuelle de la trame.
+\item L'algorithme doit interagir uniquement avec le décodeur, et ce seulement
+dans le domaine des pixels, soit à la suite du décodage de la trame.
+\end{itemize}
+
+\section*{Organisation du mémoire}
+Dans cet ouvrage, les informations sont logiquement regroupées en chapitres. La
+chronologie des chapitres permet de présenter les notions élémentaires en
+premier, suivies de l'état de l'art, de la solution proposée et des résultats
+des simulations servant à mesurer l'efficacité de notre solution.
+
+Les deux premiers chapitres présentent les notions de base requises pour une
+bonne compréhension de la norme H.264 et des mécanismes pour en effectuer le
+transport sur des réseaux peu fiables. Un lecteur avec ces connaissances peut
+les esquiver et poursuivre sa lecture au chapitre trois.
+
+Le troisième chapitre fait état des conséquences du décodage de séquences H.264
+corrompues. On y présente les répercussions de la corruption d'un encodage
+entropique, les différents types de détérioration visuelle ainsi que les sources
+de propagation de cette détérioration. Ce chapitre présente un contenu rare, de
+par le fait que, dans la majorité des cas, les paquets erronés sont rejetés et
+non pas décodés.
+
+Au quatrième chapitre, nous passons en revue la littérature portant sur la
+détection de la détérioration visuelle dans les images et les séquences vidéos.
+Pour ce faire, nous présentons aussi l'évolution des efforts de recherche dans
+les domaines connexes, tels l'analyse syntaxique de l'encodage vidéo et le
+\textit{Joint source channel decoding}.
+
+Le cinquième chapitre présente la solution proposée. Tout d'abord, nous
+présentons une mesure de la détérioration visuelle, basée sur les effets de
+blocs compensés par le mouvement. Par la suite, nous présentons deux approches
+sélectives capables d'utiliser notre mesure pour guider les choix de
+dissimulation.
+
+Au sixième chapitre, nous présentons les résultats de nos simulations dans le
+but de mesurer l'efficacité des approches proposées. Finalement, au dernier
+chapitre, nous concluons cet ouvrage.

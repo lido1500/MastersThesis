@@ -1,0 +1,56 @@
+Dans ce mémoire, nous avons présenté, tout d'abord, les notions de base sur la
+norme H.264 et son transport. Par la suite, nous avons étudié la détérioration
+visuelle issue du décodage de trames corrompues. Une revue de la littérature a
+aussi été effectuée, portant non seulement sur les approches de détection de la
+détérioration visuelle, mais aussi sur l'analyse syntaxique de vidéos encodés et
+le \textit{Joint source channel decoding}.
+
+Par ailleurs, nous avons présenté une nouvelle mesure permettant d'identifier
+les effets de bloc propres à la détérioration visuelle. Nos analyses des
+simulations permettent les conclusions suivantes:
+\begin{itemize}
+\item Il est possible de décoder des trames corrompues. La probabilité d'un
+décodage réussi varie de 20~\% à 70~\% selon les paramètres d'encodage et le
+taux d'erreurs subi lors du transport.
+\item Les trames endommagées peuvent offrir une dissimulation de meilleure
+qualité que le calque de la trame. Pour notre banc d'essai, 44~\% des séquences
+démontraient un PSNR supérieur au calque de la trame. Ce pourcentage peut
+fluctuer selon la variation \textit{intertrame} et l'importance de la
+détérioration visuelle présente dans la trame.
+\item La mesure des effets de bloc compensés par le mouvement permet de
+départager entre deux candidats de dissimulation, lequel possède le moins de
+détérioration visuelle importante. Pour notre banc d'essai, elle a effectué le
+bon choix dans 81~\% et 86~\% des cas, selon le FMO, pour l'approche sélective
+par trame et, dans 88~\% et 91~\% des cas, selon le FMO, pour celle par bloc.
+\end{itemize}
+
+L'algorithme réalisé répond aux objectifs du projet. Comme démontré, il est
+capable d'identifier et de dissimuler la détérioration visuelle. Il offre des
+gains moyens de 0.72~dB et de 0.65~dB, selon le FMO, pour l'approche sélective
+par trame et de 0.86~dB et de 0.69dB, selon le FMO, pour celle par bloc, par
+rapport au calquage de la trame. De plus, il n'utilise que l'information
+disponible dans le domaine des pixels.
+
+Quoique la solution proposée offre des résultats intéressants, il reste encore
+beaucoup de possibilités d'amélioration, comme, par exemple, l'implémentation de
+notre solution dans un décodeur H.264 commercial. Il serait aussi intéressant
+d'effectuer l'intégration avec d'autres algorithmes de dissimulation, tel le
+calque des vecteurs de mouvements. 
+
+De plus, il serait aussi possible de combiner notre approche avec de
+l'information provenant des paramètres d'encodage, tels l'ordonnancement des
+macroblocs, le nombre de tranches, etc. Ce type d'information pourrait améliorer
+l'efficacité du MCB. Ce type d'approche n'a pas été étudié dans cet ouvrage,
+car notre objectif était de travailler uniquement dans le domaine des pixels.
+
+Sous leur forme actuelle, les concepts présentés dans cet ouvrage peuvent non
+seulement améliorer la dissimulation chez des décodeurs H.264, mais aussi servir
+d'outils d'analyse de la détérioration visuelle sans référence. Ce genre
+d'outils peuvent être insérés dans des décodeurs numériques ou des appareils
+mobiles, comme ceux offerts par les opérateurs comme Rogers, Telus, Bell et
+Vidéotron, et faire état de la présence de détérioration visuelle s'il y a lieu.
+
+Tout cela réuni fait en sorte que, quoique notre effort de recherche se termine,
+les contributions issues de cet ouvrage ont un potentiel important de
+développement et d'évolution dans d'autres projets de recherche ou des
+initiatives commerciales.

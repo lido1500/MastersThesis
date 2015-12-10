@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35cm"
+   height="11cm"
+   viewBox="135 38 689 202"
+   id="svg3460"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="SelectiveSetup.dia">
+  <metadata
+     id="metadata3638">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3636" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="873"
+     id="namedview3634"
+     showgrid="false"
+     inkscape:zoom="0.41526984"
+     inkscape:cx="620.07874"
+     inkscape:cy="194.8819"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3460" />
+  <g
+     id="g3462">
+    <rect
+       style="fill: #ffffff"
+       x="137"
+       y="40"
+       width="686"
+       height="199"
+       id="rect3464" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff"
+       x="137"
+       y="40"
+       width="686"
+       height="199"
+       id="rect3466" />
+  </g>
+  <g
+     id="g3468">
+    <rect
+       style="fill: #ffffff"
+       x="508"
+       y="107.25"
+       width="100"
+       height="125"
+       id="rect3470" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="508"
+       y="107.25"
+       width="100"
+       height="125"
+       id="rect3472" />
+  </g>
+  <g
+     id="g3474">
+    <rect
+       style="fill: #ffffff"
+       x="358.5"
+       y="144.8"
+       width="116.5"
+       height="53"
+       id="rect3476" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="358.5"
+       y="144.8"
+       width="116.5"
+       height="53"
+       id="rect3478" />
+  </g>
+  <text
+     style="fill: #000000;text-anchor:middle;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:normal;font-weight:normal"
+     x="416.75"
+     y="167.356"
+     id="text3480">
+    <tspan
+       x="416.75"
+       y="167.356"
+       id="tspan3482">Approche </tspan>
+    <tspan
+       x="416.75"
+       y="184.994"
+       id="tspan3484">Sélective </tspan>
+  </text>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal"
+     x="251"
+     y="124"
+     id="text3486">
+    <tspan
+       x="251"
+       y="124"
+       id="tspan3488" />
+  </text>
+  <g
+     id="g3490">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="148.8,131.3 313,131.3 313,162.467 348.764,162.467 "
+       id="polyline3492" />
+    <polygon
+       style="fill: #000000"
+       points="356.264,162.467 346.264,167.467 348.764,162.467 346.264,157.467 "
+       id="polygon3494" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="356.264,162.467 346.264,167.467 348.764,162.467 346.264,157.467 "
+       id="polygon3496" />
+  </g>
+  <g
+     id="g3498">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="149.8,211.3 313,211.3 313,180.133 348.764,180.133 "
+       id="polyline3500" />
+    <polygon
+       style="fill: #000000"
+       points="356.264,180.133 346.264,185.133 348.764,180.133 346.264,175.133 "
+       id="polygon3502" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="356.264,180.133 346.264,185.133 348.764,180.133 346.264,175.133 "
+       id="polygon3504" />
+  </g>
+  <g
+     id="g3506">
+    <rect
+       style="fill: #ffffff"
+       x="529.5"
+       y="116.6"
+       width="58"
+       height="29.4"
+       id="rect3508" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="529.5"
+       y="116.6"
+       width="58"
+       height="29.4"
+       id="rect3510" />
+  </g>
+  <text
+     style="fill: #000000;text-anchor:middle;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:normal;font-weight:normal"
+     x="558.5"
+     y="136.175"
+     id="text3512">
+    <tspan
+       x="558.5"
+       y="136.175"
+       id="tspan3514">PSNR</tspan>
+  </text>
+  <g
+     id="g3516">
+    <rect
+       style="fill: #ffffff"
+       x="529.5"
+       y="156.6"
+       width="58"
+       height="29.4"
+       id="rect3518" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="529.5"
+       y="156.6"
+       width="58"
+       height="29.4"
+       id="rect3520" />
+  </g>
+  <text
+     style="fill: #000000;text-anchor:middle;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:normal;font-weight:normal"
+     x="558.5"
+     y="176.175"
+     id="text3522">
+    <tspan
+       x="558.5"
+       y="176.175"
+       id="tspan3524">PSNR</tspan>
+  </text>
+  <g
+     id="g3526">
+    <rect
+       style="fill: #ffffff"
+       x="529.5"
+       y="196.6"
+       width="58"
+       height="29.4"
+       id="rect3528" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="529.5"
+       y="196.6"
+       width="58"
+       height="29.4"
+       id="rect3530" />
+  </g>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal"
+     x="558.5"
+     y="211.3"
+     id="text3532">
+    <tspan
+       x="558.5"
+       y="211.3"
+       id="tspan3534" />
+  </text>
+  <text
+     style="fill: #000000;text-anchor:middle;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:normal;font-weight:normal"
+     x="558.5"
+     y="216.175"
+     id="text3536">
+    <tspan
+       x="558.5"
+       y="216.175"
+       id="tspan3538">PSNR</tspan>
+  </text>
+  <g
+     id="g3540">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="137.8"
+       y1="211.3"
+       x2="519.764"
+       y2="211.3"
+       id="line3542" />
+    <polygon
+       style="fill: #000000"
+       points="527.264,211.3 517.264,216.3 519.764,211.3 517.264,206.3 "
+       id="polygon3544" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="527.264,211.3 517.264,216.3 519.764,211.3 517.264,206.3 "
+       id="polygon3546" />
+  </g>
+  <g
+     id="g3548">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="136.8"
+       y1="131.3"
+       x2="519.764"
+       y2="131.3"
+       id="line3550" />
+    <polygon
+       style="fill: #000000"
+       points="527.264,131.3 517.264,136.3 519.764,131.3 517.264,126.3 "
+       id="polygon3552" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="527.264,131.3 517.264,136.3 519.764,131.3 517.264,126.3 "
+       id="polygon3554" />
+  </g>
+  <g
+     id="g3556">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="475"
+       y1="171.3"
+       x2="519.764"
+       y2="171.3"
+       id="line3558" />
+    <polygon
+       style="fill: #000000"
+       points="527.264,171.3 517.264,176.3 519.764,171.3 517.264,166.3 "
+       id="polygon3560" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="527.264,171.3 517.264,176.3 519.764,171.3 517.264,166.3 "
+       id="polygon3562" />
+  </g>
+  <text
+     style="fill: #000000;text-anchor:middle;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:italic;font-weight:normal"
+     x="510"
+     y="53.875"
+     id="text3564">
+    <tspan
+       x="510"
+       y="53.875"
+       id="tspan3566">Signal vidéo </tspan>
+  </text>
+  <g
+     id="g3568">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="459,61 459,61 558,61 558,97.5139 "
+       id="polyline3570" />
+    <polygon
+       style="fill: #000000"
+       points="558,105.014 553,95.0139 558,97.5139 563,95.0139 "
+       id="polygon3572" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="558,105.014 553,95.0139 558,97.5139 563,95.0139 "
+       id="polygon3574" />
+  </g>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:italic;font-weight:normal"
+     x="154"
+     y="124"
+     id="text3576">
+    <tspan
+       x="154"
+       y="124"
+       id="tspan3578">Signal vidéo erroné </tspan>
+  </text>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:italic;font-weight:normal"
+     x="157"
+     y="205"
+     id="text3580">
+    <tspan
+       x="157"
+       y="205"
+       id="tspan3582">Signal vidéo calqué </tspan>
+  </text>
+  <g
+     id="g3584">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="587.5"
+       y1="131.3"
+       x2="810.264"
+       y2="131.013"
+       id="line3586" />
+    <polygon
+       style="fill: #000000"
+       points="817.764,131.003 807.77,136.016 810.264,131.013 807.757,126.016 "
+       id="polygon3588" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="817.764,131.003 807.77,136.016 810.264,131.013 807.757,126.016 "
+       id="polygon3590" />
+  </g>
+  <g
+     id="g3592">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="587.5"
+       y1="171.3"
+       x2="810.264"
+       y2="170.054"
+       id="line3594" />
+    <polygon
+       style="fill: #000000"
+       points="817.764,170.013 807.792,175.068 810.264,170.054 807.736,165.068 "
+       id="polygon3596" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="817.764,170.013 807.792,175.068 810.264,170.054 807.736,165.068 "
+       id="polygon3598" />
+  </g>
+  <g
+     id="g3600">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="587.5"
+       y1="211.3"
+       x2="811.264"
+       y2="211.013"
+       id="line3602" />
+    <polygon
+       style="fill: #000000"
+       points="818.764,211.003 808.77,216.016 811.264,211.013 808.758,206.016 "
+       id="polygon3604" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="818.764,211.003 808.77,216.016 811.264,211.013 808.758,206.016 "
+       id="polygon3606" />
+  </g>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:italic;font-weight:normal"
+     x="615"
+     y="124"
+     id="text3608">
+    <tspan
+       x="615"
+       y="124"
+       id="tspan3610">PSNR vidéo erroné </tspan>
+  </text>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:italic;font-weight:normal"
+     x="615"
+     y="164"
+     id="text3612">
+    <tspan
+       x="615"
+       y="164"
+       id="tspan3614">PSNR approche sélective </tspan>
+  </text>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal"
+     x="416.75"
+     y="171.3"
+     id="text3616">
+    <tspan
+       x="416.75"
+       y="171.3"
+       id="tspan3618" />
+  </text>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:14.1111;font-family:Bitstream Vera Serif;font-style:italic;font-weight:normal"
+     x="615"
+     y="204"
+     id="text3620">
+    <tspan
+       x="615"
+       y="204"
+       id="tspan3622">PSNR vidéo calqué </tspan>
+  </text>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal"
+     x="419"
+     y="170"
+     id="text3624">
+    <tspan
+       x="419"
+       y="170"
+       id="tspan3626" />
+  </text>
+  <text
+     style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal"
+     x="719"
+     y="159"
+     id="text3628">
+    <tspan
+       x="719"
+       y="159"
+       id="tspan3630" />
+  </text>
+  <line
+     style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+     x1="358.5"
+     y1="144.8"
+     x2="358.5"
+     y2="197.8"
+     id="line3632" />
+</svg>
